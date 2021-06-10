@@ -1,1 +1,1 @@
-Artist Portfolio. Not deployed. Just for showing.
+Artist Portfolio. Not deployed. Just for showing the code.
