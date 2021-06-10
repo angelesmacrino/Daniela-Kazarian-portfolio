@@ -1,0 +1,1 @@
+1. Figuring how to emit an event when the different router views are created, so I can change the footer style.
