@@ -12,5 +12,5 @@ Things to apply on future websites:
   Add a 'night mode' variant.<br/>
   Create a database so I don't have to hardcode files.<br/>
   Define my routes better to avoid 404s.<br/>
-  Avoid 'Frankencode', don`t duplicate variables and functions, unify my methodology.
-  
+  Avoid 'Frankencode': don`t duplicate variables and functions, unify my methodology.<br/>
+  Learn how to apply SEO to SPAs.
