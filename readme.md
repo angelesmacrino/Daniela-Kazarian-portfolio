@@ -9,8 +9,8 @@ https://danielakazarian.000webhostapp.com/
 
 Things to apply on future websites:
   
-  Add a 'night mode' variant.
-  Create a database so I don't have to hardcode files.
-  Define my routes better to avoid 404s.
+  Add a 'night mode' variant.<br/>
+  Create a database so I don't have to hardcode files.<br/>
+  Define my routes better to avoid 404s.<br/>
   Avoid 'Frankencode', don`t duplicate variables and functions, unify my methodology.
   
