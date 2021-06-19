@@ -1,19 +1,19 @@
-<template>
-  <Header />
-  <router-view v-on:hi="sayHi"/>
-  <div v-if="viewingHome" >
-      <Footer theme="ImHome" />
+<template class="m-0 p-0">
+  <div v-bind:class="[{ wrapHome: viewingHome }, wrapnoHome]">
+    <div  class="m-0 p-0">
+      <Header />
+      <router-view v-on:hi="sayHi" v-on:gallery="imnotHome" />
+      <div v-if="viewingHome" >
+          <Footer theme="ImHome" />
+      </div>
+      <div v-if="!viewingHome">
+          <Footer theme="noHome" />
+      </div>
     </div>
-    <div v-if="!viewingHome">
-      <Footer />
-    </div>
- 
-
+  </div>
 </template>
 
 <script>
-//TODO: clase dinamica para el footer.
-        //
 
   import Header from "./components/Header.vue"
   import Footer from "./components/Footer.vue"
@@ -24,16 +24,12 @@
       Header,
       Footer,
     },
-
     data: () => {
     return {
       mobileView: false,
       showNav: false,
-      viewingHome: false,
-            
+      viewingHome: false,   
     };
-
-    
   },
 
   methods: {
@@ -41,18 +37,18 @@
           this.mobileView = window.innerWidth <= 700;
               
       },
-
-      sayHi() {
-        console.log("hi")
-      }
-      
+      sayHi() {        
+        this.viewingHome = true
+      },
+      imnotHome() {
+        this.viewingHome = false
+      }    
   },
 
 created() {
       this.handleView();
       window.addEventListener('resize', this.handleView)
-  }
-  
+  } 
   }
 </script>
 
@@ -66,4 +62,16 @@ created() {
   text-align: center;
   color: #2c3e50;
 }
+
+  Header {
+    background: white;
+  }
+
+ .wrapHome {
+    background:rgb(29, 23, 23);
+ }
+
+ .wrapnoHome {
+    background:rgb(255, 255, 255);
+ }
 </style>
