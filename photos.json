@@ -1,0 +1,53 @@
+[
+    {
+        "id":0,
+        "title": "Bad puppy",
+        "filename": "badPuppy.jpg",
+        "alt":"Wolf mother scolding her pup illustration"
+    },
+    {
+        "id":1,
+        "title": "Amphithere",
+        "filename": "Amphithere.jpg",
+        "alt":"Flying amphibian mutant illustration"
+    },
+
+    
+
+    {
+        "id":2,
+        "title": "Angsty transformation",
+        "filename": "angstyTransformation.jpg",
+        "alt":"Werewolf transformation illustration"
+    },
+
+
+    {
+        "id":3,
+        "title": "Andalite",
+        "filename": "andalite.jpg",
+        "alt":"humanoid blue mutant without a mouth and looking scared illustration"
+    },
+
+    {
+        "id":4,
+        "title": "Hort",
+        "filename": "hort.jpg",
+        "alt":"Monster looking from above surrounded by darkness illustration"
+    },
+
+    
+    
+    {
+        "id":5,
+        "title": "Blind",
+        "filename": "blind.jpg",
+        "alt":"Vampire holding and examining rat illustration"
+    }
+
+    
+
+
+
+
+]
